@@ -1,0 +1,99 @@
+body {
+    margin: 0px 100px 0px 100px;
+    background-color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 19%;
+    margin-left: 11px;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: blue;
+    color: yellowgreen;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    height: 71vh;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-content: stretch;
+    width: calc(100px - 200px); /*Para ajustar o espaço disponivel após o menu*/
+}
+
+/*Estilo menu */
+.menu-horizontal {
+    background-color: #333;
+    color: aqua;
+    width: 150px;
+    padding: 20px;
+}
+
+.menu-horizontal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-horizontal li {
+    padding: 15px;
+}
+
+.menu-horizontal a {
+    text-decoration: none;
+    color: aqua;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.menu-horizontal a:hover {
+    color: #ff9900;
+}
+
+/*Divisão dos quadrantes */
+.quadrant {
+    flex-basis: 50%;
+    border: 0 solid #ccc;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.top {
+    order: -1;
+}
+
+/*Estilo dos botões */
+.btnConsulta {
+    background-color: #3498db;
+    color: white;
+    padding: 80px;
+    font-size: 160px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+.btnExames {
+    background-color: #34db7f;
+    color: white;
+    padding: 80px;
+    font-size: 160px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
